@@ -1,0 +1,8 @@
+# CDK / Node build + deploy artifacts — never commit
+node_modules/
+cdk.out/
+*.js
+*.d.ts
+!jest.config.js
+.cdk.staging/
+package-lock.json

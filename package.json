@@ -1,0 +1,22 @@
+{
+  "name": "hipaa-audit-spine-cdk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Immutable HIPAA audit spine on AWS (KMS CMK, WORM S3, CloudTrail), built with AWS CDK",
+  "bin": { "app": "bin/app.ts" },
+  "scripts": {
+    "synth": "cdk synth",
+    "diff": "cdk diff",
+    "deploy": "cdk deploy"
+  },
+  "devDependencies": {
+    "aws-cdk": "^2.160.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.160.0",
+    "constructs": "^10.3.0"
+  }
+}
